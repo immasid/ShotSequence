@@ -1,0 +1,44 @@
+# CMake build directories
+/build/
+/build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/CTestTestfile.cmake
+
+# Compiled binaries and libraries
+*.o
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+*.app
+
+# Application data and databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+/data/
+/.photosort/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*~
+
+# IDE files
+.idea/
+.vscode/
+*.user
+*.user.*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
